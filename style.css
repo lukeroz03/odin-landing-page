@@ -1,6 +1,9 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 1115px;
 }
 
 .hero {
@@ -9,6 +12,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-shrink: 0;
 }
 
 .header-logo {
@@ -49,15 +53,16 @@ body {
 .awesome button {
   background-color: #3882f6;
   padding: 8px 16px;
-  border-radius: 12px;
+  border-radius: 6px;
   border: none;
   width: 120px;
+  color: white;
 }
 
 .placeholder-image {
   color: white;
   font-size: 18px;
-  background-color: rgb(129, 133, 149);
+  background-color: darkgray;
   height: 209px;
   padding: 0 72px;
   display: flex;
@@ -75,4 +80,134 @@ body {
 
 .header-left {
     margin-right: 64px;
+}
+
+.body-2 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 16px 160px 120px 160px;
+  min-width: 795px;
+}
+
+.random-information {
+  color: #1f2937;
+  margin-top: 16px;
+  font-size: 36px;
+  font-weight: extra-bold;
+  min-width: 425px;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin: 38px 160px 0 160px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-subtext {
+  color: #1f2937;
+  text-align: center;
+  width: 144px;
+}
+
+.box-box {
+  height: 144px;
+  width: 144px;
+  background-color: white;
+  border: 2px solid #3882f6;
+  border-radius: 12px;
+}
+
+
+
+
+.body-3 {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 120px 160px 120px 160px;
+  justify-content: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+.quoter {
+  text-align: right;
+  font-size: 24px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+
+
+.body-4 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 160px;
+}
+
+.blue-box {
+  background-color: #3882f6;
+  border-style: 2px solid #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 120px;
+  border-radius: 6px;
+  gap: 120px;
+}
+
+.blue-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.action {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.action-subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.blue-box button {
+  width: 120px;
+  background-color: #3882f6;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  padding: 6px 16px;
+}
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.copyright {
+  color: #e5e7eb;
+  font-size: 18px;
 }
